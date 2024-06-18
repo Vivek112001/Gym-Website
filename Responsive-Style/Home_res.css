@@ -1,0 +1,574 @@
+@media (max-width: 450px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: flex-start;
+  }
+  .navright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    outline: 1px solid red;
+  }
+  .navleft {
+    width: 45%;
+    height: auto;
+    padding-top: 15px;
+  }
+  .navright ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navright ul li {
+    line-height: 16vh;
+    font-size: 6vh;
+  }
+  .hamburger-icon {
+    position: absolute;
+    display: block;
+    font-size: 10vw;
+    margin-right: 3vw;
+    top: 15px;
+    right: 10px;
+  }
+  .navright button {
+    margin: 4vh 0px;
+    font-size: 7vh;
+  }
+  .navi {
+    display: none;
+  }
+  .height {
+    height: 100vh;
+  }
+
+  /*------------------------Mains---------------------------*/
+  .main {
+    height: 55vh;
+  }
+  .mainbox {
+    width: auto;
+    padding: 5vw;
+    background: none;
+  }
+  .mainbox h1 {
+    font-size: 9.2vw;
+    line-height: 10vw;
+  }
+  .mainbox h6 {
+    font-size: 4.5vw;
+    line-height: 6vw;
+    width: auto;
+  }
+  .mainboxbtn {
+    margin-top: 5vh;
+  }
+  .mainboxbtn button {
+    font-size: 5.2vw;
+    width: 100%;
+  }
+  .mainboxbtn :nth-child(1) {
+    margin-right: unset;
+    margin-bottom: 4vw;
+  }
+
+  /*---------------------Services---------------------------*/
+  .box {
+    display: none;
+  }
+  .services h4 {
+    font-size: 4.5vw;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 0.2vw;
+  }
+  .servicebox {
+    margin: 0;
+    padding: 1vw 4vw 0vw;
+  }
+  .section {
+    width: 50%;
+  }
+  .section-row {
+    padding-bottom: 0;
+  }
+  .section:nth-child(-n + 3) {
+    border-bottom: none;
+    border-right: none;
+  }
+  .section:nth-child(n + 4) {
+    border-right: none;
+    padding-top: 0;
+  }
+  .section img {
+    width: 20vw;
+    height: 21vw;
+  }
+  .section h6 {
+    font-weight: 400;
+    font-size: 5vw;
+  }
+
+  /*------------------------Plans---------------------------*/
+  .containerBox {
+    width: 60vw;
+  }
+  .plans h4 {
+    display: none;
+  }
+  .containerBox h6 {
+    font-size: 8vw;
+  }
+  .containerBox p {
+    font-size: 7vw;
+  }
+  .containerBox button {
+    font-size: 8.5vw;
+  }
+
+  /*---------------------Features---------------------------*/
+  .blankbox {
+    height: 105vw;
+  }
+  .featurebox {
+    top: 53vw;
+  }
+  .feature {
+    width: 55vw;
+  }
+  .feature h5 {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+  .feature p {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  /*----------------- Success Stories-----------------------*/
+  .stories h4 {
+    font-size: 8.5vw;
+    line-height: 16vw;
+  }
+  .sample img {
+    width: 70vw;
+    height: 85vw;
+  }
+  .sample p {
+    width: 70vw;
+    font-size: 4.5vw;
+    line-height: 6vw;
+    margin-bottom: 4vw;
+  }
+  /*------------------------Footer--------------------------*/
+  .content {
+    justify-content: center;
+  }
+  .ftrsection {
+    width: 80vw;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+  .ftrsection p {
+    width: 90%;
+    font-size: 5vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection2 {
+    width: 80vw;
+  }
+  .ftrsection2 .col {
+    margin: 3vw;
+  }
+  .ftrsection2 h6 {
+    font-size: 5.25vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection2 ul li {
+    font-size: 4vw;
+    line-height: 5.5vw;
+  }
+  .ftrsection3 {
+    width: 80vw;
+  }
+  .ftrsection3 h5 {
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection3 div {
+    font-size: 5.25vw;
+    line-height: 8.5vw;
+  }
+  .copyright {
+    height: 10vw;
+    margin-top: 6vw;
+  }
+  .copyright h2 {
+    font-size: 5.5vw;
+    line-height: 9vw;
+  }
+  .socialhandles {
+    display: flex;
+    width: 80vw;
+    margin-top: 2vw;
+  }
+  .socialhandles ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .socialhandles ul li {
+    list-style: none;
+    background-color: white;
+    color: white;
+  }
+  /*Pop-up*/
+  .overlay {
+    height: 100vh;
+  }
+  form {
+    padding: 2vw;
+  }
+  .header {
+    height: 10vw;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .plan {
+    width: 97%;
+  }
+  form h2 {
+    font-size: 4.5vw;
+    line-height: 5vw;
+    margin-top: 2.4vw;
+    margin-bottom: 1.2vw;
+  }
+  input[type="text"],
+  input[type="number"] {
+    width: 75vw;
+    height: 6.5vw;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 4.2vw;
+    height: 4.2vw;
+  }
+  .plan h4 {
+    font-size: 3.2vw;
+    font-weight: 500;
+    line-height: 3.5vw;
+    margin-right: 3vw;
+  }
+
+  .tnc {
+    margin-top: 1.8vw;
+    margin-top: 1.8vw;
+  }
+  .tnc span {
+    margin: 0px 1.5vw;
+    font-size: 3.1vw;
+    line-height: 3.5vw;
+  }
+  .tnc2 button {
+    margin-right: 4vw;
+    width: 26vw;
+    height: 10vw;
+    font-size: 5vw;
+    line-height: 10vw;
+  }
+}
+@media (min-width: 450px) and (max-width: 770px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: flex-start;
+  }
+  .navright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    outline: 1px solid red;
+  }
+  .navright ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navright ul li {
+    line-height: 16vh;
+    font-size: 6vh;
+  }
+  .hamburger-icon {
+    display: block;
+    font-size: 10vw;
+    margin-right: 3vw;
+  }
+  .navright button {
+    margin: 4vh 0px;
+    font-size: 7vh;
+  }
+  .navi {
+    display: none;
+  }
+  .height {
+    height: 109vh;
+  }
+  .navleft {
+    width: 31%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .hamburger-icon {
+    position: absolute;
+    display: block;
+    font-size: 6.5vw;
+    margin-right: 2vw;
+    top: 15px;
+    right: 10px;
+  }
+
+  /*------------------------Mains---------------------------*/
+  .main {
+    height: 75vh;
+  }
+  .mainbox {
+    width: auto;
+    padding: 5vw;
+    background: none;
+  }
+  .mainbox h1 {
+    font-size: 9.2vw;
+    line-height: 10vw;
+  }
+  .mainbox h6 {
+    font-size: 3.5vw;
+    line-height: 6vw;
+    width: auto;
+  }
+  .mainboxbtn {
+    margin-top: 5vh;
+  }
+  .mainboxbtn button {
+    font-size: 4.5vw;
+    width: 90%;
+  }
+  .mainboxbtn :nth-child(1) {
+    margin-right: unset;
+    margin-bottom: 4vw;
+  }
+
+  /*---------------------Services---------------------------*/
+  .box {
+    display: none;
+  }
+  .services h4 {
+    font-size: 4.5vw;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 2vw 0vw;
+  }
+  .servicebox {
+    margin: 0;
+    padding: 1vw 4vw 0vw;
+  }
+  .section {
+    width: 50%;
+  }
+  .section-row {
+    padding-bottom: 0;
+  }
+  .section:nth-child(-n + 3) {
+    border-bottom: none;
+    border-right: none;
+  }
+  .section:nth-child(n + 4) {
+    border-right: none;
+    padding-top: 0;
+  }
+  .section img {
+    width: 20vw;
+    height: 21vw;
+  }
+  .section h6 {
+    font-weight: 500;
+    font-size: 5vw;
+  }
+
+  /*------------------------Plans---------------------------*/
+  .containerBox {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .plans h4 {
+    top: 3.5vw;
+    left: 20vw;
+    font-size: 7.5vw;
+  }
+  .containerBox h6 {
+    font-size: 7vw;
+  }
+  .containerBox p {
+    font-size: 5.5vw;
+  }
+  .containerBox button {
+    padding: 1vw 2vw;
+    font-size: 7.5vw;
+  }
+
+  /*---------------------Features---------------------------*/
+  .blankbox {
+    height: 80vw;
+  }
+  .featurebox {
+    top: 29vw;
+  }
+  .feature {
+    width: 55vw;
+  }
+  .feature h5 {
+    font-size: 4.5vw;
+    line-height: 6vw;
+  }
+  .feature p {
+    font-size: 2.5vw;
+    line-height: 4vw;
+  }
+
+  /*----------------- Success Stories-----------------------*/
+  .stories h4 {
+    font-size: 8.5vw;
+    line-height: 16vw;
+  }
+  .sample img {
+    width: 70vw;
+    height: 85vw;
+  }
+  .sample p {
+    width: 70vw;
+    font-size: 4.5vw;
+    line-height: 6vw;
+    margin-bottom: 4vw;
+  }
+
+  /*------------------------Footer--------------------------*/
+  .content {
+    justify-content: center;
+  }
+  .ftrsection {
+    width: 80vw;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+  .ftrsection p {
+    width: 90%;
+    font-size: 5vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection2 {
+    width: 80vw;
+  }
+  .ftrsection2 .col {
+    margin: 3vw;
+  }
+  .ftrsection2 h6 {
+    font-size: 5.25vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection2 ul li {
+    font-size: 4vw;
+    line-height: 5.5vw;
+  }
+  .ftrsection3 {
+    width: 80vw;
+  }
+  .ftrsection3 h5 {
+    font-size: 6vw;
+    line-height: 6.5vw;
+  }
+  .ftrsection3 div {
+    font-size: 5.25vw;
+    line-height: 8.5vw;
+  }
+  .copyright {
+    height: 10vw;
+    margin-top: 5vw;
+  }
+  .copyright h2 {
+    font-size: 5.5vw;
+    line-height: 9vw;
+  }
+  .socialhandles {
+    display: flex;
+    width: 80vw;
+    margin-top: 2vw;
+  }
+  .socialhandles ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .socialhandles ul li {
+    list-style: none;
+    background-color: white;
+    color: white;
+  }
+  /*Pop-up*/
+  .overlay {
+    height: 150vw;
+  }
+  form {
+    padding: 2vw;
+  }
+  .header {
+    height: 6vw;
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .plan {
+    width: 97%;
+  }
+  form h2 {
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+  }
+  input[type="text"],
+  input[type="number"] {
+    width: 75vw;
+    height: 4.5vw;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 3vw;
+    height: 3vw;
+  }
+  .plan h4 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    line-height: 2vw;
+    margin-right: 3vw;
+  }
+  .tnc {
+    margin-top: 1.2vw;
+  }
+  .tnc span {
+    margin: 0px 1.5vw;
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .tnc2 button {
+    margin-right: 4vw;
+    width: 16vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    line-height: 5vw;
+  }
+}
