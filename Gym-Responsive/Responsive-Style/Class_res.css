@@ -1,0 +1,131 @@
+@media (max-width: 450px) {
+  .item {
+    width: 60vw;
+    margin-bottom: 4vw;
+  }
+  .main-class h1 {
+    font-size: 7.5vw;
+    line-height: 10vw;
+    margin-bottom: 4vw;
+  }
+  .itemBox {
+    width: 50vw;
+    height: 50vw;
+  }
+  .item h4 {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .item button {
+    width: 50vw;
+    height: 7vw;
+    font-size: 4vw;
+    line-height: 8vw;
+  }
+  /*Center*/
+  .center h2 {
+    position: absolute;
+    top: 1.5%;
+    z-index: 2;
+    font-size: 6vw;
+    line-height: 7vw;
+    padding: 1vw;
+  }
+  .blankcentre {
+    height: 290vw;
+    margin-top: 0%;
+  }
+  .imgcontainer {
+    top: 7.5%;
+    left: 0%;
+  }
+  .myimg {
+    border-radius: 2.5px;
+    width: 60vw;
+    height: 70vw;
+  }
+  .imgitem button {
+    width: 50vw;
+    height: 10vw;
+    font-size: 7vw;
+    line-height: 10vw;
+    margin: 3vw 0 5vw;
+  }
+  .carausel {
+    height: 55vw;
+  }
+  .control1 {
+    width: 5vw;
+    height: 5vw;
+  }
+  .control2 {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+@media (min-width: 450px) and (max-width: 750px) {
+  .item {
+    width: 60vw;
+    margin-bottom: 4vw;
+  }
+  .main-class h1 {
+    font-size: 7.5vw;
+    line-height: 10vw;
+    margin-bottom: 4vw;
+  }
+  .itemBox {
+    width: 50vw;
+    height: 50vw;
+  }
+  .item h4 {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .item button {
+    width: 50vw;
+    height: 7vw;
+    font-size: 4vw;
+    line-height: 8vw;
+  }
+
+  /*Center*/
+  .center h2 {
+    position: absolute;
+    top: 1.5%;
+    z-index: 2;
+    font-size: 6vw;
+    line-height: 7vw;
+    padding: 1vw;
+  }
+  .blankcentre {
+    height: 280vw;
+    margin-top: 0%;
+  }
+  .imgcontainer {
+    top: 8%;
+    left: 4%;
+  }
+  .myimg {
+    border-radius: 2.5px;
+    width: 60vw;
+    height: 70vw;
+  }
+  .imgitem button {
+    width: 55vw;
+    height: 8vw;
+    font-size: 6vw;
+    line-height: 8vw;
+    margin: 3vw 0 5vw;
+  }
+  .carausel {
+    height: 50vw;
+  }
+  .control1 {
+    width: 5vw;
+    height: 5vw;
+  }
+  .control2 {
+    width: 5vw;
+    height: 5vw;
+  }
+}
